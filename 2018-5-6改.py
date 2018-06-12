@@ -1,5 +1,6 @@
 import random 
 secret = random.randint(1,10)
+print(secret)
 print('-----let us play a game-----')
 temp = input('来猜一猜现在我想的一个数字:')
 guess = int(temp)
