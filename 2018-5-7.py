@@ -13,13 +13,11 @@ while count <=3:
         print('没机会了')
         break
     if guess > new_sec:
-        print('大了')
-        temp = input('猜错了，请重新输入：')
+        temp = input('大了，请重新输入：')
         guess = float(temp)
         count += 1
     else:
-        print('小了小了')
-        temp = input('猜错了，请重新输入：')
+        temp = input('小了，请重新输入：')
         guess = float(temp)
         count += 1
 print('game over')
