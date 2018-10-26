@@ -9,5 +9,9 @@ myInfo = {'name': 'wang', 'sex': 'f', 'wife': 'eeee'}
 del myInfo['wife']
 print(myInfo)
 myInfo = {'name': 'wang', 'sex': 'f', 'wife': 'eeee'}
-myInfo.clear()
-print(myInfo)
+'''myInfo.clear()
+print(myInfo)'''
+
+print(myInfo.keys())
+print(myInfo.values())
+print(myInfo.items())
